@@ -1,0 +1,75 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(31, 1, 71);
+  padding: 5px;
+  height: 80px;
+  transition: all 1s ease-in-out;
+  
+}
+.meno {
+  color: aliceblue;
+}
+.meno ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.meno li {
+  margin: 0 8px;
+  font-weight: 500;
+}
+.meno li.ferstli {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 3px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo p {
+  color: aliceblue;
+  font-size: 30px;
+}
+.menoicons {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .meno ul {
+    display: none;
+  }
+
+  .menoicons {
+    display: block;
+  }
+
+  #meno-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: blueviolet;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    color: black;
+    text-align: center;
+  }
+
+  .meno li.ferstli {
+   margin-top: 5px;
+    border: 1px solid black;
+    width: 200px;
+  }
+  .meno li {
+    margin-bottom: 5px;
+    border-bottom: 2px solid blue;
+    width: 100px;
+  }
+}

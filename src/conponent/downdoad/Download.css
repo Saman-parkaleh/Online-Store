@@ -1,0 +1,39 @@
+#download{
+   background:linear-gradient(120deg,rgb(9, 208, 243),blue);
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   height: 50vh;
+   
+}
+.header{
+text-align: center;
+color:whitesmoke;
+
+}
+.header h1{
+   
+   font-size: 25px;
+   border-bottom: 2px solid;
+}
+.download-apps
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.download-app{
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid whitesmoke;
+   width: 30%;
+   padding: 8px;
+   gap: 10px;
+   margin: 15px;
+
+}

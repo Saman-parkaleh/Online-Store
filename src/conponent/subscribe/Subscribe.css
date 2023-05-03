@@ -1,0 +1,55 @@
+/* background: url(../../assets/subscribe-bg.png); */
+
+#section {
+  background: url(../../assets/subscribe-bg.png);
+  
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  
+  flex-direction: column;
+}
+.hed {
+  color: whitesmoke;
+  margin: 10px;
+  
+}
+.hed h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+}
+.hed form {
+  padding: 15px;
+  display: flex;
+  
+}
+.hed form button {
+  background-color: rgb(0, 110, 255);
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.hed form input {
+   border: 5px ;
+   color: black;
+   font-family: cursive;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.icon {
+  display: flex;
+  
+  margin-top: 20px;
+}
+
+.icon .social-icon {
+ color: antiquewhite;
+ border: 1px solid ;
+ margin: 15px;
+ padding: 15px;
+ border-radius: 50%;
+
+   gap: 15px;
+}
